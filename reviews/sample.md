@@ -1,8 +1,8 @@
-# Utilize OCR text to extract receipt data and classify receipts with common Machine Learning algorithms
+# Title
 
-## Joel Odd, Emil Theologou
+## Authors
 
-[Browse](http://liu.diva-portal.org/smash/get/diva2:1215460/FULLTEXT01.pdf)
+[Browse](url)
 
 ### Pipeline
 
@@ -10,13 +10,28 @@
 | :-------------------: | :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
 |           ❌           |         ❌         |          ❌           |           ❌           |           ❌            |               ❗               |         ✔️         |
 
+#### Receipt preprocessing
+
+* TBA
+
+#### Receipt detection
+
+* TBA
+
+#### Receipt localization
+
+* TBA
+
+#### Text line segmentation
+
+* TBA
+
 #### Optical character recognition
 
-- Azure Computer Vision API and Google Drive REST Api tested.
+- TBA
 
 #### Semantic analysis
 
 - Fields extracted:
-  - date
-  - total price
-- n-gram model used. They took tri-grams (A B C) and calculated co-occurence so they learn that B can  be total price, because it usually is between A and C. 
+  - TBA
+- TBA
