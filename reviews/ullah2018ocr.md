@@ -68,5 +68,3 @@
 * ![](images/ullah2018ocr/image-20200214183031446.png)
 
   ![image-20200214183133984](images/ullah2018ocr/image-20200214183133984.png)
-
-* 
