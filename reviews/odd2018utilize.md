@@ -6,9 +6,9 @@
 
 ### Pipeline
 
-| Receipt preprocessing | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
-| :-------------------: | :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
-|           ❌           |         ❌         |          ❌           |           ❌           |           ❌            |               ❗               |         ✔️         |
+| Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
+| :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
+|         ❌         |          ❌           |           ❌           |           ❌            |               ❗               |         ✔️         |
 
 #### Optical character recognition
 

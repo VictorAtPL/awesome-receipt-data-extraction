@@ -6,19 +6,19 @@
 
 ### Pipeline
 
-| Receipt preprocessing | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
-| :-------------------: | :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
-|           ❌           |         ❌         |          ❌           |           ❌           |           ❌            |               ❗               |         ✔️         |
-
-#### Receipt preprocessing
-
-* TBA
+| Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
+| :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
+|         ❌         |          ❌           |           ❌           |           ❌            |               ❗               |         ✔️         |
 
 #### Receipt detection
 
 * TBA
 
 #### Receipt localization
+
+* TBA
+
+#### Receipt normalization
 
 * TBA
 
@@ -35,3 +35,7 @@
 - Fields extracted:
   - TBA
 - TBA
+
+### Notes
+
+* TBA

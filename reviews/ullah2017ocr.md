@@ -6,17 +6,17 @@
 
 ### Pipeline
 
-| Receipt preprocessing | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
-| :-------------------: | :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
-|           ✔️           |         ❌         |          ❌           |           ✔️           |           ❌            |               ❗               |         ✔️         |
+| Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
+| :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
+|         ❌         |          ✔️           |           ✔️           |           ❌            |               ❗               |         ✔️         |
 
-#### Receipt preprocessing
+#### Receipt localization
 
-* Image stitching
 * Image Background Removal
-* Otsu’s Binarization
 
-#### Receipt preprocessing
+#### Receipt normalization
+
+* Otsu’s Binarization
 
 * Image de-skewing with https://www.pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/
 
@@ -43,6 +43,8 @@
 - But some of the receipts we observed, having different structure. Our heuristic is applied, but very weak over these kind of receipts. Items and prices on separate lines.
 
 ### Notes
+
+* Before localization, **Image stitching** is performed if more than one photo of receipt is available.
 
 * > Generic receipt parser.
 
