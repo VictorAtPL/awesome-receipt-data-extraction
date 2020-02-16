@@ -7,8 +7,8 @@
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
-| :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
-|         ❌         |          ✔️           |           ✔️           |           ❌            |               ❗               |         ✔️         |
+|:-----------------:|:--------------------:|:---------------------:|:----------------------:|:-----------------------------:|:-----------------:|
+| ❌                 | ✔️                   | ✔️                    | ❌                      | ❗                             | ✔️                |
 
 #### Receipt localization
 
@@ -21,7 +21,7 @@
 * Image De-skewing
 
 * Image Resizing
-
+  
   > For large images we reduce size to 1/3rd ratios and increase DPI to 300 if less than 300 dpi.
 
 #### Optical character recognition
@@ -36,7 +36,7 @@
   - item quantities,
   - item prices,
   - units (in. e. grams, dozens, gm, kg, kilogram, kilo gram, spoon, piece)
-  
+
 - > It has been observed during our research that most of the grocery reciepts used short names instead of full names. For example reciept will be using “milk pdr” instead of “milk powder”. For mapping we have used a dictionary containing short names as keys and their full form. 
 
 - > In most of the receipt it has been observed that item name, price and quantity is on single line. So we just parsed single line from text file (OCR result), extract price, quantity and item name from that line and ignore rest of the line. 
@@ -60,11 +60,11 @@
 - Item, price and quanitity detected using regular expressions.
 
 - Context Aware spell correction for item name.
-
+  
   >  If match score of item name with dictionary word is less than 85%, we ignore word of dictionary and considered item name is correct and when the match score is greater than 85%, then item name is replace by dictionary word.
 
 ### Notes
 
 * ![](images/ullah2018ocr/image-20200214183031446.png)
-
+  
   ![image-20200214183133984](images/ullah2018ocr/image-20200214183133984.png)

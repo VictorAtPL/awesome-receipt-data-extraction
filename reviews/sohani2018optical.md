@@ -7,8 +7,8 @@
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
-| :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
-|         ❌         |          ✔️           |           ✔️           |           ❌            |               ❗               |         ✔️         |
+|:-----------------:|:--------------------:|:---------------------:|:----------------------:|:-----------------------------:|:-----------------:|
+| ❌                 | ✔️                   | ✔️                    | ❌                      | ❗                             | ✔️                |
 
 #### Receipt localization
 
@@ -17,6 +17,7 @@
 #### Receipt normalization
 
 * Otsu’s Image binarization
+
 * Image and Text De-skewing
 
 * Image Resizing
@@ -32,7 +33,7 @@
   - item names,
   - item quantities,
   - item prices,
-  
+
 - > Section-level extraction
 
 - > Our system then bifurcates the image into sections (like Price, Item-Names, Quantity are dealt separately from one another) according to given template layouts

@@ -7,8 +7,8 @@
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
-| :---------------: | :------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: |
-|         ❌         |          ✔️           |           ✔️           |           ❌            |               ❗               |         ✔️         |
+|:-----------------:|:--------------------:|:---------------------:|:----------------------:|:-----------------------------:|:-----------------:|
+| ❌                 | ✔️                   | ✔️                    | ❌                      | ❗                             | ✔️                |
 
 #### Receipt localization
 
@@ -21,9 +21,9 @@
 * Image de-skewing with https://www.pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/
 
 * Image resizing
-
+  
   > Image having DPI (Dots per Inch) greater than 300 has been observed good results.
-
+  
   > bicubic interpolation
 
 #### Optical character recognition
