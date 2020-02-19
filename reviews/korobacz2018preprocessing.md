@@ -33,6 +33,8 @@
       * Denoising
       
       * Vertical histogram from -10 to 10 degrees
+    
+    ![](images/korobacz2018preprocessing/rotate.png)
   
   * Detecting the entire text outline and marking it in the image:
     
@@ -43,6 +45,8 @@
       * high-pass filter based on Sobel operator
     
     * morphological operation of erosion
+    
+    ![](images/korobacz2018preprocessing/erosion.png)
   
   * Image cropping:
     
@@ -55,6 +59,8 @@
     * the rectangle escribed on the whole set of contours was searched
     
     * finds the minimum rectangle containing a set of rectangles
+    
+    ![](images/korobacz2018preprocessing/cropping.png)
 
 #### Receipt normalization
 
