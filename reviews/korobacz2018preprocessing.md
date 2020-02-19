@@ -84,4 +84,14 @@
   > - Angle of rotation – how much the photo deviates from the vertical position,
   > 
   > - Folds – the receipt may be curled or folded.
-* 
+* Binarization methods tested:
+  * Otsu method
+    * > Otsu’s global method copes well with clear, sharp images with a good lighting
+  * 2 Adaptive methods:
+    * > For the first method, the threshold value T is a mean of the pixel intensities in the observation window.
+    * > For the second one, it is a weighted sum (cross-correlation with a Gaussian window) of this neighborhood.
+    * > In the adaptive methods along with the growing observation window, the text becomes less readable
+  * > the histogram equalization, due to the loss of some information, introduced disturbances and caused problems in the binarization. In the case of smoothing, only for low sigma values this has a positive effect on the result.
+  * > Comparing visually, the adaptive method with the equal weights in the observation window is the best
+  
+  ![](images/korobacz2018preprocessing/binarization.png)
