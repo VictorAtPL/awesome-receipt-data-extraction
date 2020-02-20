@@ -73,8 +73,11 @@
 ### Notes
 
 * > The authors had mainly difficult cases in mind – photos taken freehand in unfavorable lighting conditions.
+
 * > inhomogeneous lighting conditions, cropping, different angles of images taken, non-linear distortions and sharpness of images
+
 * > The following characteristics of the samples were considered:
+  > 
   > - Cropping – whether the entire receipt is visible, how much background is in the picture,
   > 
   > - Lighting – it can be artificial or natural, strong or weak, shadows can be seen on the receipt,
@@ -84,7 +87,9 @@
   > - Angle of rotation – how much the photo deviates from the vertical position,
   > 
   > - Folds – the receipt may be curled or folded.
+
 * Binarization methods tested:
+  
   * Otsu method
     * > Otsu’s global method copes well with clear, sharp images with a good lighting
   * 2 Adaptive methods:
