@@ -22,13 +22,16 @@
 - > a convolutional mechanism with attention which outperforms more common recurrent architectures
   
   ![](images/sarshogh2019multi/attention.png)
+
 - > main contributions of this paper is the added text recognition head
+
 - > The TRN head consists of two main components: a new pooling mechanism tailored for text recognition (RoIRecognitionAlign), and an OCR stack
+
 - > designed RoIreclign to pool the features of every RoI, no matter how big or small, from the second convolutional block of ResNet (C2)
+
 - > we do not want our pooled representation to be corrupting text features by stretching short texts and compressing long ones
+
 - CTC loss
-  
-  
 
 ### Notes
 
