@@ -35,13 +35,8 @@
   - > In receipt parsing task, there is an additional group tag (not to be confused with line group) to reflect the hierarchical structure of parses  for example fields such as name, count, and price are grouped together based on the item they represent).
 - Refinements:
   - > various special symbols in cnt and price values, and (2) the thousands separator in price are refined to have unified representation
-    
-    
-    
 
 ### Notes
 
 * not much details - not sure how serialization works and how embeddings are calculated. Also it looks like it works on tokens, not characters
 * ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/hwang2019post/scheme.png)
-
-
