@@ -13,7 +13,9 @@
 #### Receipt localization
 
 * > binarizing the images, using Otsu’s method
+
 * > straighten the images - horizontal projection (summing the pixel values row-wise) is done for each resulting image. The straight image is assumed to be the one were are the most variations between the peaks and valleys of the histogram
+
 * > removing the edges of the image, to keep only the receipt, removing any background
   
   > look at the horizontal and vertical projections and to remove the section from the top and bottom that is over a threshold
