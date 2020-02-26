@@ -51,24 +51,36 @@
 #### Semantic analysis
 
 - Fields extracted:
+  
   - date
   - time
   - total price
   - tax price
   - phone number
   - url
+
 - > based on text features and certain geometric relationships between those features
+
 - > applying context-free regular-expression patterns to identify high-value information fragments, which we call “entities” - telephone numbers, dates, URLs, names and addresses, currency amounts, email addresses, and credit-card numbers
+
 - > look for certain key phrases like “TOTAL AMOUNT” or “DATE PAID” which help to disambiguate other entities
+
 - > “DATE PAID” would be a “date” key phrase
+
 - > a regular expression engine which supports “fuzzy” matching [6] for finding these entities
+
 - > This allows us to specify regular expressions which match sub-strings within a specified Levenshtein distance
   
   ![](images/jansenn2012receipts/entities.png)
+
 - > We next group each key phrase entity with another entity of the proper type
+
 - > The relationships currently used are “RightOf ”, “LeftOf”, “Below”, and “Above”. For instance, we use a timestamp as a “date” key phrase entity, and require it to have a “RightOf” relationship with any date it applies to.
+
 - > amount” key phrases that indicate a total are required to appear “Above” or “LeftOf” a currency amount entity in order to be associated with it.
+
 - > we also need to identify the region of the receipt containing the line items
+
 - > first identify the topmost currency amount entity, and use the top of its bounding box as the top of our list items region. We then look for the first currency amount entity below it that is also tagged with an amount keyword, such as “total” or “subtotal”. The top of that entity is used as the bottom of the list items region.
   
   ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/jansenn2012receipts/groupings.png)
