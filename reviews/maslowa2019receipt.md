@@ -40,7 +40,9 @@
 ### Notes
 
 * ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/maslowa2019receipt/chain.png)
+
 * > receipts are, to name a few, not standardized, often damaged before being captured (crumples, tear, etc.), captured in poor acquisition conditions (no vertical alignment, with perspective effect, poor light, etc.)
+
 * data augmentation
   
   > horizontal flipping, scaling, small rotations around the vertical alignment of the receipt, shearing and translation

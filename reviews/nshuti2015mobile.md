@@ -29,6 +29,7 @@
 ### Notes
 
 * 7 conditions tested:
+  
   * DARK.
     
     > The best conditions underwhich a picture can be taken is from the top with a dark background. This will be used as the baseline. Other configurations will be just a variation from this. We’ll either vary the background color, the camera orientation or the document quality.

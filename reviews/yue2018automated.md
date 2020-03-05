@@ -14,16 +14,20 @@
 
 * > The input image is first downscaled to a fixed size and
   > transformed from the RGB color space to grayscale.
+
 * > system uses multiple, independent edge detection implementations that are combined using a statistical, weighted voting average
-  * Line Segment Detector (LSD)
-    
-    > it is a line extraction algorithm that uses Gaussian pyramids that are down-sampled and blurred in order to identify line support regions.
-  * Probabilistic Hough Transform
-    
-    > A binary image input, usually of edges from detectors such as the Canny Edge Detector, is used for this probabilistic method where possible lines matching the binary input are generated through a stochastic voting process and the randomly generated lines that overlap sufficiently enough with the binary input are subsequently chosen.
-  * Holistically-Nested Edge Detection
-    
-    > The advantages of using the HED machine learning model primarily stems from the fact that the machine learning model was trained to discriminate against flagging edges within the background of a given image.
+  > 
+  > * Line Segment Detector (LSD)
+  
+  > it is a line extraction algorithm that uses Gaussian pyramids that are down-sampled and blurred in order to identify line support regions.
+  > 
+  > * Probabilistic Hough Transform
+  
+  > A binary image input, usually of edges from detectors such as the Canny Edge Detector, is used for this probabilistic method where possible lines matching the binary input are generated through a stochastic voting process and the randomly generated lines that overlap sufficiently enough with the binary input are subsequently chosen.
+  > 
+  > * Holistically-Nested Edge Detection
+  
+  > The advantages of using the HED machine learning model primarily stems from the fact that the machine learning model was trained to discriminate against flagging edges within the background of a given image.
 
 #### Receipt normalization
 
