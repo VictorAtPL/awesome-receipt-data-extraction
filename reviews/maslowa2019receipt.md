@@ -5,10 +5,15 @@
 [Browse](https://hal.archives-ouvertes.fr/hal-02196644/document)
 
 ```latex
-maslowa2019receipt
+@inproceedings{maslowa2019receipt,
+author = {Maslova, Olga and Klein, Louis and Dabernat, Damien and Benoit, Alexandre and Lambert, Patrick},
+year = {2019},
+month = {09},
+pages = {1-6},
+title = {Receipt automatic reader},
+doi = {10.1109/CBMI.2019.8877407}
+}
 ```
-
-
 
 ### Pipeline
 
@@ -50,5 +55,5 @@ maslowa2019receipt
 * > receipts are, to name a few, not standardized, often damaged before being captured (crumples, tear, etc.), captured in poor acquisition conditions (no vertical alignment, with perspective effect, poor light, etc.)
 
 * data augmentation
-  
+
   > horizontal flipping, scaling, small rotations around the vertical alignment of the receipt, shearing and translation
