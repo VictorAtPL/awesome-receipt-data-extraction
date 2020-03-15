@@ -4,6 +4,16 @@
 
 [Browse](https://www.cs.princeton.edu/courses/archive/spring18/cos598B/public/projects/System/COS598B_spr2018_ReceiptParsing.pdf)
 
+```
+@inproceedings{yue2018automated,
+  title={Automated Receipt Image Identification, Cropping , and Parsing},
+  author={Alex Yue},
+  year={2018}
+}
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |

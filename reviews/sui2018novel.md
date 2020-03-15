@@ -4,6 +4,22 @@
 
 [Browse](https://arxiv.org/pdf/1811.08611.pdf)
 
+```latex
+@article{sui2018novel,
+   title={A Novel Integrated Framework for Learning both Text Detection and Recognition},
+   ISBN={9781538637883},
+   url={http://dx.doi.org/10.1109/ICPR.2018.8545047},
+   DOI={10.1109/icpr.2018.8545047},
+   journal={2018 24th International Conference on Pattern Recognition (ICPR)},
+   publisher={IEEE},
+   author={Sui, Wanchen and Zhang, Qing and Yang, Jun and Chu, Wei},
+   year={2018},
+   month={Aug}
+}
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -44,7 +60,7 @@
 
 * > a single end-to-end trainable model and train the joint model for two tasks simultaneously
   
-  ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/sui2018novel/architecture.png)
+  ![](images/sui2018novel/architecture.png)
 
 * no details on the predicted output (I assume anchor boxes + text for each anchor box)
 

@@ -4,6 +4,16 @@
 
 [Browse](https://hal.archives-ouvertes.fr/hal-01654191/document)
 
+```latex
+@article{raoui2017deep,
+author = {Raoui-Outach, Rizlène and Million-Rousseau, Cécile and Benoit, Alexandre and Lambert, Patrick},
+year = {2017},
+month = {12},
+pages = {},
+title = {Deep Learning for automatic sale receipt understanding}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |

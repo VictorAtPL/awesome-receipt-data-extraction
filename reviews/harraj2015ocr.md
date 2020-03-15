@@ -4,6 +4,21 @@
 
 [Browse](https://arxiv.org/pdf/1509.03456.pdf)
 
+```latex
+@article{article,
+author = {Harraj, Abdeslam and Raissouni, Naoufal},
+year = {2015},
+month = {09},
+pages = {},
+title = {OCR Accuracy Improvement on Document Images Through a Novel Pre-Processing Approach},
+volume = {6},
+journal = {Signal & Image Processing : An International Journal},
+doi = {10.5121/sipij.2015.6401}
+}
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |

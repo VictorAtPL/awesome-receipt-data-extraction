@@ -4,6 +4,16 @@
 
 [Browse](http://docplayer.net/35942009-A-novel-machine-learning-based-approach-for-retrieving-information-from-receipt-images.html)
 
+```latex
+@misc{szabo2014novel,
+  title={A Novel Machine Learning Based Approach for Retrieving Information from Receipt Images},
+  author={Szabo, Ronald},
+  year={2014}
+}
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |

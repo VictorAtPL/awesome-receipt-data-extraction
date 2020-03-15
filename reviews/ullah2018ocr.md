@@ -4,6 +4,17 @@
 
 [Browse](https://www.ijser.org/researchpaper/OCR-Engine-to-Extract-Food-Items-Prices-Quantity-Units-from-Receipt-Images-Heuristics-Rules-Based-Approach.pdf)
 
+```latex
+@unknown{ullah2018ocr,
+author = {Ullah, Rafi and Sohani, Ali and Rai, Athaul and Ali, Faraz and Messier, Richard},
+year = {2018},
+month = {02},
+pages = {},
+title = {OCR Engine to Extract Food-Items, Prices, Quantity, Units from Receipt Images, Heuristics Rules Based Approach},
+doi = {10.13140/RG.2.2.16640.74242}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |

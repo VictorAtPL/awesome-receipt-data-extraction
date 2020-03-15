@@ -4,6 +4,20 @@
 
 [Browse](https://arxiv.org/pdf/1709.03272.pdf)
 
+```latex
+@article{dai2017fused,
+   title={Fused Text Segmentation Networks for Multi-oriented Scene Text Detection},
+   ISBN={9781538637883},
+   url={http://dx.doi.org/10.1109/ICPR.2018.8546066},
+   DOI={10.1109/icpr.2018.8546066},
+   journal={2018 24th International Conference on Pattern Recognition (ICPR)},
+   publisher={IEEE},
+   author={Dai, Yuchen and Huang, Zheng and Gao, Yuting and Xu, Youxuan and Chen, Kai and Guo, Jie and Qiu, Weidong},
+   year={2018},
+   month={Aug}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -15,21 +29,21 @@
 * > resnet-101 backbone
 
 * PSROIPooling instead of ROIPooling + FC layers (faster inference time)
-  
-  ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/dai2017fused/diff_two_stage_detectors_for_generic_object_detection.png)
-  
+
+  ![](images/dai2017fused/diff_two_stage_detectors_for_generic_object_detection.png)
+
   source: [https://arxiv.org/pdf/1908.03673.pdf](https://arxiv.org/pdf/1908.03673.pdf)
 
-* ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/dai2017fused/diff_one_stage_detectors_for_generic_object_detection.png)
+* ![](images/dai2017fused/diff_one_stage_detectors_for_generic_object_detection.png)
   source: [https://arxiv.org/pdf/1908.03673.pdf](https://arxiv.org/pdf/1908.03673.pdf)
 
-* ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/dai2017fused/shift_computation.png)
+* ![](images/dai2017fused/shift_computation.png)
   source: http://deeplearning.csail.mit.edu/instance_ross.pptx
 
-* ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/dai2017fused/rfcn_1.jpg)
+* ![](images/dai2017fused/rfcn_1.jpg)
   source: [https://joshua19881228.github.io/2016-05-23-RFCN/](https://joshua19881228.github.io/2016-05-23-RFCN/)
 
-* ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/dai2017fused/rfcn_2.png)
+* ![](images/dai2017fused/rfcn_2.png)
   source: [https://www.semanticscholar.org/paper/R-FCN%3A-Object-Detection-via-Region-based-Fully-Dai-Li/b724c3f7ff395235b62537203ddeb710f0eb27bb](https://www.semanticscholar.org/paper/R-FCN%3A-Object-Detection-via-Region-based-Fully-Dai-Li/b724c3f7ff395235b62537203ddeb710f0eb27bb)
 
 * PSRoi Inside/Outside Pooling - [more here](https://towardsdatascience.com/review-fcis-winner-in-2016-coco-segmentation-instance-segmentation-ee2d61f465e2)

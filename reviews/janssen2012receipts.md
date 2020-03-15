@@ -4,6 +4,17 @@
 
 [Browse](http://www.saund.org/papers/2012-janssen-etal-receipts2go-big-world.pdf)
 
+```latex
+@inproceedings{janssen2012receipts,
+author = {Janssen, Bill and Saund, Eric and Bier, Eric and Wall, Patricia and Sprague, Mary Ann},
+year = {2012},
+month = {09},
+pages = {121-124},
+title = {Receipts2Go: The big world of small documents},
+doi = {10.1145/2361354.2361381}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -41,7 +52,7 @@
 
 * > crop the image to cover the area in which the “character-sized” connected components were found
   
-  ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/jansenn2012receipts/preprocessing.png)
+  ![](images/jansenn2012receipts/preprocessing.png)
 
 #### Optical character recognition
 
@@ -83,7 +94,7 @@
 
 - > first identify the topmost currency amount entity, and use the top of its bounding box as the top of our list items region. We then look for the first currency amount entity below it that is also tagged with an amount keyword, such as “total” or “subtotal”. The top of that entity is used as the bottom of the list items region.
   
-  ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/jansenn2012receipts/groupings.png)
+  ![](images/jansenn2012receipts/groupings.png)
 
 ### Notes
 

@@ -4,6 +4,18 @@
 
 [Browse](https://openreview.net/pdf?id=SJgjf695UB)
 
+```latex
+@inproceedings{hwang2019post,
+title={Post-{\{}OCR{\}} parsing: building simple and robust parser via {\{}BIO{\}} tagging},
+author={Wonseok Hwang and Seonghyeon Kim and Minjoon Seo and Jinyeong Yim and Seunghyun Park and Sungrae Park and Junyeop Lee and Bado Lee and Hwalsuk Lee},
+booktitle={Workshop on Document Intelligence at NeurIPS 2019},
+year={2019},
+url={https://openreview.net/forum?id=SJgjf695UB}
+}
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -39,4 +51,4 @@
 ### Notes
 
 * not much details - not sure how serialization works and how embeddings are calculated. Also it looks like it works on tokens, not characters
-* ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/hwang2019post/scheme.png)
+* ![](images/hwang2019post/scheme.png)

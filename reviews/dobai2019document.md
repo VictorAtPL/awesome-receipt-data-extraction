@@ -4,6 +4,18 @@
 
 [Browse](https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2019-17.pdf)
 
+```latex
+@article{dobai2019document,
+   title={A document detection technique using convolutional neural networks for optical character recognition systems},
+   ISBN={9782875870650},
+   journal={ESANN 2019 proceedings, European Symposium on Artificial Neural Networks, Computational Intelligence
+and Machine Learning},
+   author={Dobai, Lorand and Teletin, Mihai},
+   year={2019},
+   pages={547-552}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |

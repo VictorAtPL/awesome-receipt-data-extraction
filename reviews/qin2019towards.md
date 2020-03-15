@@ -4,6 +4,22 @@
 
 [Browse](https://arxiv.org/pdf/1908.09231.pdf)
 
+```latex
+@article{qin2019towards,
+   title={Towards Unconstrained End-to-End Text Spotting},
+   ISBN={9781728148038},
+   url={http://dx.doi.org/10.1109/ICCV.2019.00480},
+   DOI={10.1109/iccv.2019.00480},
+   journal={2019 IEEE/CVF International Conference on Computer Vision (ICCV)},
+   publisher={IEEE},
+   author={Qin, Siyang and Bissaco, Alessandro and Raptis, Michalis and Fujii, Yasuhisa and Xiao, Ying},
+   year={2019},
+   month={Oct}
+}
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -30,11 +46,17 @@
 ### Notes
 
 * > end-to-end trainable network that can simultaneously detect and recognize text of arbitrary shape
-  
-  ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/qin2019towards/architecture.png)
+
+  ![](images/qin2019towards/architecture.png)
+
 * > an existing multi-step OCR engine can be leveraged as partially labeled training data
+
 * > the recognizer requires far more data to train than the detector
+
 * > 15 Tesla V100 GPUs are used
+
 * > about three days to finish
+
 * > we run an existing OCR engine on one million images with text and use the predictions (oriented rectangles and transcriptions) as the partially labeled ground-truth
+
 * > To prevent the large volumes of synthetic and partially labeled data from dominating the training data, extensive data augmentations are applied to fully labeled real images

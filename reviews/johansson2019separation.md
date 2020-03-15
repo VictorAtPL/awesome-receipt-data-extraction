@@ -4,6 +4,14 @@
 
 [Browse](http://www.diva-portal.org/smash/get/diva2:1349283/FULLTEXT01.pdf)
 
+```latex
+@misc{johansson2019separation,
+  title={Separation and extraction of valuable information from digital receipts using Google Cloud Vision OCR.},
+  author={Johansson, Elias},
+  year={2019}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |

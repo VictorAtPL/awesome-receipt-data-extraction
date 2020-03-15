@@ -4,6 +4,16 @@
 
 [Browse](http://kjcis.pafkiet.edu.pk/Doc/Vol2Issue1/Optical%20Character%20Recognition%20Engine%20to%20extract%20Food-items%20and%20Prices.pdf)
 
+```latex
+@inproceedings{sohani2018optical,
+author = {Ullah, Rafi and Sohani, Ali and Ali, Faraz and Rai, Athaul},
+year = {2018},
+month = {03},
+pages = {},
+title = {Optical Character Recognition Engine to extract Food-items and Prices from Grocery Receipt Images via Templating and Dictionary-Traversal Technique}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -29,7 +39,7 @@
 #### Semantic analysis
 
 - Fields extracted:
-  
+
   - item names,
   - item quantities,
   - item prices,
@@ -43,9 +53,9 @@
 
 - <img src="images/sohani2018optical/image-20200215141726973.png" alt="image-20200215141726973" style="zoom:50%;" />
 
-- > We had the location of items, prices and quantity in the template. We used this knowledge to retrieve image’s specific portion. 
+- > We had the location of items, prices and quantity in the template. We used this knowledge to retrieve image’s specific portion.
 
-- > Using above technique we retrieved the image portions/sections using template information independent of requested image size, whether greater or lesser than template image. 
+- > Using above technique we retrieved the image portions/sections using template information independent of requested image size, whether greater or lesser than template image.
 
 - > Context sensitive spelling correction is a technique of correcting OCR results by matching them with dictionaries of stores.
 

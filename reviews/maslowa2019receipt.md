@@ -4,6 +4,12 @@
 
 [Browse](https://hal.archives-ouvertes.fr/hal-02196644/document)
 
+```latex
+maslowa2019receipt
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -39,7 +45,7 @@
 
 ### Notes
 
-* ![](/Users/piotr-mac/repos/awesome-receipt-data-extraction/reviews/images/maslowa2019receipt/chain.png)
+* ![](images/maslowa2019receipt/chain.png)
 
 * > receipts are, to name a few, not standardized, often damaged before being captured (crumples, tear, etc.), captured in poor acquisition conditions (no vertical alignment, with perspective effect, poor light, etc.)
 

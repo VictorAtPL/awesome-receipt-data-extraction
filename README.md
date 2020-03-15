@@ -1,8 +1,12 @@
 # Awesome receipt data extraction
 
-This repository contains resources helpful if you are going to build a system for fiscal receipt data extraction.
+This repository contains resources helpful if you are going to build a system for key information extraction from photos of receipts.
 
-## List of documents
+## Disclaimer
+
+Quotes and images of publications listed below, which are available in this GitHub repository are shared here for educational purpose only. I don't own any copyrights for these publications. If you want me to delete your publication from this list and repository - contact me via [kontakt@piotrpodbielski.pl](mailto:kontakt@piotrpodbielski.pl).
+
+## List of publications
 
 | Year    | Type of document         | Title, authors                                                                                                                                                                                                                                           | Works on                                                                                 | Dataset, quantity, country of origin                                                                     | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
 | ------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------- | -------------------- | --------------------- | ---------------------- | ----------------------------- | ----------------- |
@@ -37,11 +41,17 @@ This repository contains resources helpful if you are going to build a system fo
 | 2014    | Preprint                 | [A Novel Machine Learning Based Approach for Retrieving Information from Receipt Images](reviews/szabo2014novel.md)<br/>Roland Szabo                                                                                                                     | photos of receipts                                                                       | Proprietary<br/>20                                                                                       | ❌                 | ✔️                   | ❌                     | ✔️                     | ✔️                            | ❌                 |
 | 2012.09 | Conference Paper         | [Receipts2Go: The Big World of Small Documents](reviews/janssen2012receipts.md)<br/>Bill Janssen, Eric Saund, Eric A. Bier, Patricia Wall, Mary Ann Sprague                                                                                              | photos of receipts                                                                       | N/A                                                                                                      | ❌                 | ✔️                   | ✔️                    | ❌                      | ❗                             | ✔️                |
 
+## Citations
+
+Citations in Bibtex format are available here: [references.bib](references.bib).
+
 ## To read
 
 ##### High priority
 
-* ##### Low priority
+* TBA
+
+##### Low priority
 
 * [Expense Control: A Gamified, Semi-Automated, Crowd-Based Approach For Receipt Capturing](https://www.researchgate.net/publication/311492118_Expense_Control_A_Gamified_Semi-Automated_Crowd-Based_Approach_For_Receipt_Capturing)
 
@@ -57,4 +67,4 @@ This repository contains resources helpful if you are going to build a system fo
 
 * [Survey Of Receipt Identification And Classification Using Machine Learning](https://archives.ourheritagejournal.com/index.php/oh/article/download/2424/2270/](https://archives.ourheritagejournal.com/index.php/oh/article/download/2424/2270/)
 
-* 
+* TBA

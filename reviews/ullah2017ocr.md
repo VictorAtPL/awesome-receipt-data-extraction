@@ -4,6 +4,16 @@
 
 [Browse](https://www.researchgate.net/publication/322222389_OCR_Engine_to_extract_Food-items_and_Prices_from_Receipt_Images_via_Pattern_matching_and_heuristics_approach)
 
+```latex
+@inproceedings{ullah2017ocr,
+author = {Ullah, Rafi and Sohani, Ali and Ali, Faraz and Rai, Athaul},
+year = {2017},
+month = {12},
+pages = {},
+title = {OCR Engine to extract Food-items and Prices from Receipt Images via Pattern matching and heuristics approach}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |

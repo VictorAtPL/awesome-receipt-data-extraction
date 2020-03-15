@@ -4,6 +4,18 @@
 
 [Browse](https://arxiv.org/pdf/1812.07248.pdf)
 
+```latex
+@article{palm2019attend,
+  title={Attend, Copy, Parse End-to-end Information Extraction from Documents},
+  author={Palm, Rasmus Berg and Laws, Florian and Winther, Ole},
+  journal={2019 International Conference on Document Analysis and Recognition (ICDAR)},
+  year={2018},
+  pages={329-336}
+}
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |

@@ -4,6 +4,18 @@
 
 [Browse](https://arxiv.org/pdf/1903.12363)
 
+```latex
+@unknown{zhao2019cutie,
+author = {Zhao, Xiaohui and Wu, Zhuo and Wang, Xiaoguang},
+year = {2019},
+month = {03},
+pages = {},
+title = {CUTIE: Learning to Understand Documents with Convolutional Universal Text Information Extractor}
+}
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -18,7 +30,7 @@
 #### Semantic analysis
 
 - Fields extracted:
-  
+
   - merchant name,
   - merchant tax number,
   - date,
@@ -78,4 +90,4 @@
   > (ME), and Hotel, where 3, 375 samples are used for train-
   > ing and 1, 125 are used for testing
 
-* 
+*

@@ -4,6 +4,14 @@
 
 [Browse](https://bmvc2019.org/wp-content/uploads/papers/0870-paper.pdf)
 
+```latex
+@inproceedings{dang2019end,
+  title={End-to-End Information Extraction by Character-Level Embedding and Multi-Stage Attentional U-Net},
+  author={Dang, Tuan Nguyen},
+  year={2019}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -13,7 +21,7 @@
 #### Semantic analysis
 
 - Fields extracted:
-  
+
   - Toyota invoices dataset:
     - date_issue,
     - sender_name,
@@ -39,10 +47,10 @@
 
 - > Long-range dependencies and correlations between spatial positions on the document are captured by an additional self-attention mechanism  and the box convolution layer
 
-- coupled U-Nets 
-  
+- coupled U-Nets
+
   > we are considered the problems of progressive information extraction (i.e. first the ‘key’ is segmented before the whole ‘key-value’ is segmented)
-  
+
   > forcing the middle U-Net block to segment key and/or description while the final end outputs the full segmentation of all key/value collections.
 
 - > the char-grid is chosen and tweaked over the hierarchical levels of subword, word or sentence level embedding

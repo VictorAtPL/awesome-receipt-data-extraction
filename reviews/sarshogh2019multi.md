@@ -4,6 +4,22 @@
 
 [Browse](https://arxiv.org/pdf/1906.09266.pdf)
 
+```latex
+@article{sarshogh2019multi,
+   title={A Multi-task Network for Localization and Recognition of Text in Images},
+   ISBN={9781728130149},
+   url={http://dx.doi.org/10.1109/ICDAR.2019.00085},
+   DOI={10.1109/icdar.2019.00085},
+   journal={2019 International Conference on Document Analysis and Recognition (ICDAR)},
+   publisher={IEEE},
+   author={Sarshogh, Mohammad Reza and Hines, Keegan},
+   year={2019},
+   month={Sep}
+}
+```
+
+
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -15,12 +31,12 @@
 * > OCR comes from the large variety of aspect ratios inherent to blocks of text
 * > We made changes to both the anchor boxes’ aspect ratios and the pooling dimensions of RoIAlign
 * > predict not just spatial coordinates for a box’s center, width, and height (cx, cy, w, h), but additionally angle of rotation θ
-* 
+*
 
 #### Optical character recognition
 
 - > a convolutional mechanism with attention which outperforms more common recurrent architectures
-  
+
   ![](images/sarshogh2019multi/attention.png)
 
 - > main contributions of this paper is the added text recognition head

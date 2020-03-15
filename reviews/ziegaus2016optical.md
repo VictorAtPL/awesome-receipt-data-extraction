@@ -4,6 +4,14 @@
 
 [Browse](https://www.fim.uni-passau.de/fileadmin/dokumente/fakultaeten/fim/lehrstuhl/sauer/geyer/BA_MA_Arbeiten/BA-ZiegausMarco-201607.pdf)
 
+```latex
+@misc{ziegaus2016optical,
+  title={Optical Character Recognition on supermarket receipts},
+  author={Ziegaus, Marco},
+  year={2016}
+}
+```
+
 ### Pipeline
 
 | Receipt detection | Receipt localization | Receipt normalization | Text line segmentation | Optical character recognition | Semantic analysis |
@@ -19,15 +27,15 @@
 #### Text line segmentation
 
 * A couple of strategies tested:
-  
+
   * White row strategy
-  
+
   * Relative pixel count strategy
-  
+
   * Median pixel count strategy
-  
+
   * Pixel count gain strategy
-    
+
     > it first calculates the number of black pixels for each row and detects rising and falling edges.
 
 #### Optical character recognition
