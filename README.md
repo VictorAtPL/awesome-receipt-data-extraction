@@ -65,6 +65,6 @@ Citations in Bibtex format are available here: [references.bib](references.bib).
 
 * [Find receipts, warp perspective and OCR with Tesseract JS in browser](https://www.reddit.com/r/computervision/comments/92lnkv/find_receipts_warp_perspective_and_ocr_with/)
 
-* [Survey Of Receipt Identification And Classification Using Machine Learning](https://archives.ourheritagejournal.com/index.php/oh/article/download/2424/2270/](https://archives.ourheritagejournal.com/index.php/oh/article/download/2424/2270/)
+* [Survey Of Receipt Identification And Classification Using Machine Learning](https://archives.ourheritagejournal.com/index.php/oh/article/download/2424/2270/)
 
 * TBA
