@@ -2,7 +2,7 @@
 
 ## Anoop Raveendra Katti, Christian Reisswig, Cordula Guder, Sebastian Brarda, Steffen Bickel, Johannes Höhne, Jean Baptiste Faddoul
 
-[Browse](url)
+[Browse](https://arxiv.org/pdf/1809.08799)
 
 ```latex
 @unknown{katti2018chargrid,
@@ -13,8 +13,6 @@ pages = {},
 title = {Chargrid: Towards Understanding 2D Documents}
 }
 ```
-
-
 
 ### Pipeline
 
@@ -29,7 +27,7 @@ title = {Chargrid: Towards Understanding 2D Documents}
 #### Semantic analysis
 
 - Fields extracted:
-
+  
   - Invoice Number,
   - Invoice Date,
   - Invoice Amount,
@@ -42,7 +40,7 @@ title = {Chargrid: Towards Understanding 2D Documents}
 
 - > A chargrid can be constructed from character boxes, i.e., bounding boxes that each surround a single character somewhere on a given document page. This positional information can come from an optical character
   > recognition (OCR) engine
-
+  
   ![](images/katti2018chargrid/chargird.png)
 
 - > The advantage of the new chargrid representation is twofold: (i) we directly encode a character by a single scalar value rather than by a granular
@@ -51,13 +49,13 @@ title = {Chargrid: Towards Understanding 2D Documents}
 
 - > We use the 1-hot encoded chargrid representation g ̃ as input to a fully convolutional neural network to perform semantic segmentation on the chargrid and predict a class label for each character-pixel on the document. As there can be multiple and an unknown number of instances of the same class, we further perform instance segmentation. This means, in addition to predicting a segmentation mask, we may also predict bounding boxes using the techniques from object detection. This allows
   > the model to assign characters from the same segmentation class to distinct instances.
-
+  
   ![](images/katti2018chargrid/network.png)
 
 - VGG encoder
 
 - > To extract the values for each field, we collect all characters that are classified as belonging to the corresponding class. For line-items, we further group the characters by the predicted item bounding boxes.
-
+  
   ![](images/katti2018chargrid/results.png)
 
 ### Notes
