@@ -4,7 +4,7 @@ This repository contains resources helpful if you are going to build a system fo
 
 ## Disclaimer
 
-Quotes and images of publications listed below, which are available in this GitHub repository are shared here for educational purpose only. I don't own any copyrights for these publications. If you want me to delete your publication from this list and repository - contact me via [kontakt@piotrpodbielski.pl](mailto:kontakt@piotrpodbielski.pl).
+Quotes and images of publications listed below, which are available in this GitHub repository are shared here for educational purpose only. I don't own any copyrights for these publications. If you want me to delete your publication from this list and repository - please open an issue in this repository.
 
 ## List of publications
 
